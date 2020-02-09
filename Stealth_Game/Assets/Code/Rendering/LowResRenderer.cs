@@ -7,7 +7,7 @@ public class LowResRenderer : MonoBehaviour
 
     public Camera[] allCameras;
     private RenderTexture[] allRendTexs;
-    private int yRes = 200;
+    public int yRes = 200;
 
 
     // Start is called before the first frame update
